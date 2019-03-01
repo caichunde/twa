@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dchb.mapper.turn.TranMapper">
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, OUT_ORG_ID, OUT_ORG_NAME, OUT_DEPARTMENT, OUT_DOCTOR_ID, OUT_DOCTOR_NAME, OUT_DOCTOR_PHONENUM, TRAN_DIRECT, SKER_IDCARDNO, SKER_NAME, SKER_SEX, SKER _PHONENUM, SKER_CONTENT, SKER_FIRSTDIA_CODE, SKER_FIRSTDIA_NAME, SKER_REPORT, SKER_TRANREASION, IN_ORG_ID, IN_ORG_NAME, IN_DEPARTMENT, TRAN_DATE, TRAN_STATE
+    </sql>
+    
+</mapper>
