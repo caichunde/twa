@@ -51,7 +51,7 @@ public class Application {
         SpringApplication app = new SpringApplication(Application.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
-        System.out.println("----------测试---------");
+        System.out.println("----------caichunde测试---------");
         System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
     }
 
