@@ -52,6 +52,7 @@ public class Application {
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
         System.out.println("----------caichunde测试---------");
+        System.out.println("----------cai308测试---------");
         System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
     }
 
