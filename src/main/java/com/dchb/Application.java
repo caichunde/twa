@@ -53,6 +53,7 @@ public class Application {
         app.run(args);
         System.out.println("12312121212");
         System.out.println("12312121212");
+        System.out.println("ffffffffffffffff");
         System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
     }
 
