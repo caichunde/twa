@@ -52,6 +52,7 @@ public class Application {
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
         System.out.println("12312121212");
+        System.out.println("12312121212");
         System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
     }
 
